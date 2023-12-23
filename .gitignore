@@ -118,8 +118,3 @@ dist
 .pnp.*
 
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Node
-.DS_Store
-
-# Ignore package.json and package-lock.json files
-package.json
-package-lock.json
