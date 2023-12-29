@@ -8,12 +8,13 @@ const asyncHandler = (func) => async (req, res, next) => {
     });
   }
 };
+
 export { asyncHandler };
 
 // const asyncHandlerMethodTwo = (requestHandler) => {
-//   (req, res, next) => {
+//   return (req, res, next) => {
 //     Promise.resolve(requestHandler(req, res, next)).catch((error) =>
 //       next(error)
 //     );
 //   };
-//
+// }
